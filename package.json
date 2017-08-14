@@ -2,13 +2,19 @@
   "name": "keymap-display",
   "main": "./lib/keymap-display",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Displays custom keymaps with a nice interface.",
   "keywords": [
+    "keymap",
+    "display",
+    "panel",
+    "palette",
+    "keyboard",
+    "shortcuts"
   ],
   "activationCommands": {
     "atom-workspace": "keymap-display:toggle"
   },
-  "repository": "https://github.com/atom/keymap-display",
+  "repository": "https://github.com/wlwl2/keymap-display",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
