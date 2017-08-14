@@ -4,7 +4,7 @@ Displays custom keymaps with a nice interface.
 
 Press 'alt-d' to toggle the keymap display.
 
-Currently only supports custom keymaps, not reassigned default keymaps, or any
-other keymaps.
+Currently only supports custom keymaps and keymaps from packages,
+not reassigned default keymaps.
 
-Todo: test on many keymaps being displayed.
+Todo: add support for all keymaps and maybe a search bar.
