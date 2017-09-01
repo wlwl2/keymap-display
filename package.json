@@ -1,7 +1,7 @@
 {
   "name": "keymap-display",
   "main": "./lib/keymap-display",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Displays custom keymaps with a nice interface.",
   "keywords": [
     "keymap",
