@@ -9,6 +9,7 @@
 
   .content {
     text-align: center;
+    margin: 0 10px;
 
     .main-heading {
       padding: 0.5em;
@@ -26,8 +27,19 @@
 
         span {
           display: table-cell;
-          border: 1px solid black;
+          border-right: 1px solid black;
+          border-bottom: 1px solid black;
           padding: 0.5em;
+        }
+
+        span:first-child {
+          border-left: 1px solid black;
+        }
+      }
+
+      li:first-child {
+        span {
+          border-top: 1px solid black;
         }
       }
     }
