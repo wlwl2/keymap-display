@@ -1,6 +1,7 @@
 {
   "atom-workspace": {
-    "alt-d": "keymap-display:toggle",
-    "alt-j": "keymap-display:change-groups"
+    "alt-k": "keymap-display:toggle",
+    "alt-l": "keymap-display:change-groups"
   }
 }
+
