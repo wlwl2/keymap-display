@@ -4,8 +4,14 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
+
+atom-panel.modal {
+  max-width: none !important;
+}
+
 .atom-keymap-display-package {
   overflow: auto;
+  font-size: 14px;
 
   .content {
     text-align: center;
@@ -38,31 +44,44 @@
       }
     }
 
+    .keymap-list li {
+      display: inline-block;
+      width: 25%;
+
+      div {
+        display: table;
+        width: 100%;
+      }
+
+      span {
+        display: table-cell;
+      }
+
+      // command
+      span:first-child {
+        border-right: none;
+      }
+
+      // keyboard shortcut for command
+      span:last-child {
+        border-left: none;
+        width: 30%;
+      }
+    }
+
     ul {
-      display: table;
       width: 100%;
       margin: 0;
       padding: 0;
       list-style-type: none;
 
       li {
-        display: table-row;
+        display: inline-block;
 
         span {
-          display: table-cell;
-          border-right: 1px solid black;
-          border-bottom: 1px solid black;
-          padding: 0.5em;
-        }
-
-        span:first-child {
-          border-left: 1px solid black;
-        }
-      }
-
-      li:first-child {
-        span {
-          border-top: 1px solid black;
+          display: inline-block;
+          border: 1px solid black;
+          padding: 0.2em;
         }
       }
     }
