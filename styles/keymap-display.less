@@ -8,6 +8,15 @@ atom-panel-container.modal[data-keymap-display="open"] atom-panel.modal  {
   max-width: none;
 }
 
+
+
+.search-input {
+  width: 300px;
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+}
+
 .atom-keymap-display-package {
   overflow: auto;
   font-size: 14px;
@@ -41,6 +50,14 @@ atom-panel-container.modal[data-keymap-display="open"] atom-panel.modal  {
           color: white;
         }
       }
+    }
+
+    .keymap-list li[data-show-key="yes"] {
+      display: inline-block;
+    }
+
+    .keymap-list li[data-show-key="no"] {
+      display: none;
     }
 
     .keymap-list li {
