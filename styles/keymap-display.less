@@ -8,8 +8,6 @@ atom-panel-container.modal[data-keymap-display="open"] atom-panel.modal  {
   max-width: none;
 }
 
-
-
 .search-input {
   width: 300px;
   text-align: left;
@@ -93,6 +91,7 @@ atom-panel-container.modal[data-keymap-display="open"] atom-panel.modal  {
 
       li {
         display: inline-block;
+        vertical-align: top;
 
         span {
           display: inline-block;
@@ -100,6 +99,22 @@ atom-panel-container.modal[data-keymap-display="open"] atom-panel.modal  {
           padding: 0.2em;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+  .atom-keymap-display-package {
+    .content .keymap-list li {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .atom-keymap-display-package {
+    .content .keymap-list li {
+      width: 100%;
     }
   }
 }
