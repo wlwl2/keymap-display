@@ -2,7 +2,7 @@
   "name": "keymap-display",
   "main": "./lib/keymap-display",
   "version": "0.13.0",
-  "description": "Displays custom keymaps with a nice interface.",
+  "description": "View or search for keybindings with a nice interface.",
   "keywords": [
     "keybindings",
     "keyboard",
