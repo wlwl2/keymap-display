@@ -1,6 +1,6 @@
 # keymap-display package
 
-![Image of keymap-display modal shown](images/tree-view.png)
+![keymap-display modal](https://user-images.githubusercontent.com/11145398/72033633-d4e9d480-32cd-11ea-8f2b-fb2405386c50.gif)
 
 Displays custom keymaps with a nice interface.
 Also allows you to search for keyboard shortcuts.
